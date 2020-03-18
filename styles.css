@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+h1{
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 452px;
+    left: 98px;
+    top: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 83px;
+}
