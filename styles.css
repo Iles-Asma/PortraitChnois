@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+
+
+
+
 body{
-    display: flex;
-    background-color: antiquewhite;
+    margin: 0;
+    background-color:white;
 }
 
-h1{
+nav{
     display: flex;
-    position: absolute;
-    width: 40%;
-    height: 452px;
-    left: 98px;
-    top: 250px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 83px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #FAEBE6;
+    
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.right-links{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
