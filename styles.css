@@ -10,6 +10,7 @@ body{
 }
 
 nav{
+    font-family:'PT Sans', sans-serif; 
     display: flex;
     justify-content: space-around;
     align-items: center;
