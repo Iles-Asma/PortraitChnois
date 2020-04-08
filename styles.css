@@ -2,32 +2,54 @@
 
 
 
-
-
 body{
     margin: 0;
-    background-color:white;
+    background-color: #FAEBE6;
 }
 
 nav{
     font-family:'PT Sans', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color: #FAEBE6;
-    
+    box-shadow: 0px 4px 60px rgba(248, 182, 160, 0.8);
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+
+ .nav-links li{
+    padding:20px;
+    padding-left:0px;
 }
 
 .nav-links{
     list-style: none;
+    margin-left: 10%;
+    padding: 0px;
+}
 
+li{
+    display: inline;
 }
 
 .right-links{
     list-style: none;
+    margin-right: 10%;
+    padding: 0px;
 }
 
 a{
     text-decoration: none;
+    background: linear-gradient(90deg, #FF1C13  0%,
+    #FF6B00  30.21%,
+    #FFAC1A  70.79%,
+    #FEC808  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
