@@ -1,53 +1,157 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 
-body{
+body {
     margin: 0;
+   
+    font-family: 'PT Sans', sans-serif;
+    width-max:1024px;
     background-color: #FAEBE6;
+   
 }
 
-nav{
-    font-family:'PT Sans', sans-serif; 
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 19px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    min-height: 9vh;
+    min-height: 10vh;
     background-color: #FAEBE6;
-    box-shadow: 0px 4px 60px rgba(248, 182, 160, 0.8);
+    box-shadow: 0px 10px 30px rgba(248, 182, 160, 0.8);
     border-radius: 0px 0px 20px 20px;
 
-
 }
 
- .nav-links li{
+.nav-links li {
     padding-right: 50px;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     margin-left: 10%;
     padding: 0px;
 }
 
-li{
+li {
     display: inline;
 }
 
-.right-links{
+.right-links {
     list-style: none;
     margin-right: 10%;
     padding: 0px;
 }
 
-a{
+a {
     text-decoration: none;
-    background: linear-gradient(90deg, #FF1C13  0%,
-    #FF6B00  30.21%,
-    #FFAC1A  70.79%,
-    #FEC808  100%);
+    background: linear-gradient(90deg, #FF1C13 0%,
+            #FF6B00 30.21%,
+            #FFAC1A 70.79%,
+            #FEC808 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.acceuil{
+    height:780px;
+    border: solid black 3px;
+}
+
+.text1{
+    margin-left: 10%;
+    margin-top: 15%;
+    background: linear-gradient(90deg, #FF1C13 0%,
+            #FF6B00 15%,
+            #FFAC1A 30%,
+            #FEC808 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+h1 {
+    font-size: 50px;
+
+}
+p{
+    font-size: 26px;
+}
+
+.rectangle_rouge {
+    position: relative;
+    width: 150px;
+    height: 1200px;
+    left: 880px;
+    top: -680px;
+    z-index: -1;
+    background: #FF1C13;
+    transform: rotate(31.31deg);
+}
+
+.rectangle_orange {
+    position: relative;
+    width: 150px;
+    height: 1200px;
+    left: 1164px;
+    top: -2000px;
+    z-index: -1;
+    background: #FF6B00;
+    transform: rotate(31.31deg);
+  
+
+}
+
+
+.rectangle_jaune-foncé {
+    position: absolute;
+    width: 150px;
+    height: 1059.18px;
+    left: 1300px;
+    top: -40px;
+    z-index: -1;
+    background: #FFAC1A;
+    transform: rotate(31.31deg);
+
+
+}
+
+.rectangle_jaune {
+    position: absolute;
+    width: 150px;
+    height: 600px;
+    left: 1445px;
+    top: 300px;
+    z-index: -1;
+    background: #FEC808;
+    transform: rotate(31.31deg);
+
+
+}
+
+
+.page2{
+    background-color: #FAEBE6;
+    border: solid 3px red;
+    height: 780px;
+}
+.text2{
+    margin-top: 20%;
+    
+    margin-left: 10%;
+
+    background: linear-gradient(90deg, #B03656  7.81%,
+    #6E286B 49.48%,
+    #4F1F29 95.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+
 }
