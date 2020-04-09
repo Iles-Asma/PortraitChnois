@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
-
+    
     font-family: 'PT Sans', sans-serif;
-    width-max: 1024px;
+    width: 100%;
     background-color: #FAEBE6;
 
 }
@@ -63,6 +63,7 @@ a {
 .acceuil {
     height: 780px;
     border: solid black 3px;
+    width:100%;
 }
 
 .text1 {
@@ -83,7 +84,7 @@ h1 {
 }
 
 p {
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .rectangle_rouge {
@@ -120,8 +121,6 @@ p {
     z-index: -1;
     background: #FFAC1A;
     transform: rotate(31.31deg);
-
-
 }
 
 .rectangle_jaune {
@@ -133,81 +132,145 @@ p {
     z-index: -1;
     background: #FEC808;
     transform: rotate(31.31deg);
-
-
 }
 
 
 .page2 {
+    
+    width: 100%;
+    margin: 0px;
+    display: flex;
     background-color: #FAEBE6;
     border: solid 3px red;
     height: 780px;
 }
 
 .text2 {
-    margin-top: 20%;
-
+    padding: 0;
+    margin: 0;
+    height: 350px;
+    width:820px;
+    border: solid blue 3px;
+    margin-top: 10%;
     margin-left: 10%;
-
     background: linear-gradient(90deg, #B03656 7.81%,
             #6E286B 49.48%,
             #4F1F29 95.31%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 26px;
-
 }
 
 .page3 {
+    margin: 0;
     border: solid 3px red;
     height: 780px;
+    width: 100%;
 }
 
-.text3 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text3 {
+    width: 820px;
+    border: solid blue 3px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #9B531A 0%,
+            #C98A6D 30.88%,
+            #E2BB87 93.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .page4 {
+    
+    width: 100%;
     border: solid 3px red;
     height: 780px;
 }
 
-.text4 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text4 {
+    width: 820px;
+    border: solid blue 3px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #000000 0%,
+            #707070 47.4%,
+            #9A9A9A 85.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .page5 {
+   
+    width: 100%;
     border: solid 3px red;
-    height: 780px;
+    height: 740px;
 }
 
-.text5 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text5 {
+    width: 820px;
+    height: 550px;
+    border: solid blue 3px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #000000 7.29%,
+            #C7141A 49.48%,
+            #9A9A9A 87.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .page6 {
+    
+    width: 100%;
     border: solid 3px red;
     height: 780px;
 }
 
-.text6 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text6 {
+    width: 820px;
+    border: solid blue 3px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #FFAC1A 3.13%,
+            #F0326E 43.23%,
+            #33E1ED 85.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .page7 {
+    
+    width: 100%;
     border: solid 3px red;
     height: 780px;
+    
 }
 
-.text7 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text7 {
+    border: solid blue 3px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #B66E28 0%,
+            #FFAC1A 47.4%,
+            #DDDD33 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 820px;
+    
+}
 
 .page8 {
+    
+    width: 100%;
     border: solid 3px red;
     height: 780px;
 }
 
-.text8 {margin-top: 20%;
-
-    margin-left: 10%;}
+.text8 {
+    border: solid blue 3px;
+    margin-top: 13%;
+    margin-left: 10%;
+    background: linear-gradient(90deg, #65272A 10.94% ,#2E313B 47.4%, #6B6D8A 77.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     width: 820px;
+}
