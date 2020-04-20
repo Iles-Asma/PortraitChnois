@@ -62,7 +62,7 @@ a {
 
 
 .acceuil {
-    height: 780px;
+    max-height: 780px;
     border: solid black 3px;
     max-width: 1920px;
 }
@@ -138,7 +138,7 @@ p {
 
 .page2 {
     
-    width: 100%;
+    max-width: 100%;
     margin: 0px;
     display: flex;
     background-color: #FAEBE6;
@@ -149,7 +149,7 @@ p {
 .text2 {
     padding: 0;
     margin: 0;
-    height: 350px;
+
     width:820px;
     border: solid blue 3px;
     margin-top: 10%;
@@ -162,10 +162,11 @@ p {
 }
 
 .page3 {
+    display: flex;
     margin: 0;
     border: solid 3px red;
     height: 780px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .text3 {
@@ -181,8 +182,8 @@ p {
 }
 
 .page4 {
-    
-    width: 100%;
+    display: flex;
+    max-width: 100%;
     border: solid 3px red;
     height: 780px;
 }
@@ -200,15 +201,14 @@ p {
 }
 
 .page5 {
-   
-    width: 100%;
+   display: flex;
+    max-width: 100%;
     border: solid 3px red;
-    height: 740px;
+    height: 780px;
 }
 
 .text5 {
     width: 820px;
-    height: 550px;
     border: solid blue 3px;
     margin-top: 10%;
     margin-left: 10%;
@@ -220,8 +220,8 @@ p {
 }
 
 .page6 {
-    
-    width: 100%;
+    display: flex;
+    max-width: 100%;
     border: solid 3px red;
     height: 780px;
 }
@@ -239,8 +239,8 @@ p {
 }
 
 .page7 {
-    
-    width: 100%;
+    display: flex;
+    max-width: 1920px;
     border: solid 3px red;
     height: 780px;
     
@@ -260,8 +260,8 @@ p {
 }
 
 .page8 {
-    
-    width: 100%;
+    display: flex;
+    max-width: 100%;
     border: solid 3px red;
     height: 780px;
 }
