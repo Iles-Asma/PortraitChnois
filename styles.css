@@ -113,7 +113,7 @@ p {
 }
 
 
-.rectangle_jaune-foncé {
+.rectangle_jaune-fonce {
     position: absolute;
     width: 150px;
     height: 1059.18px;
@@ -274,4 +274,23 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
      width: 820px;
+}
+
+
+@media screen and (min-width:2000px) {
+    
+    .rectangle_rouge {
+        display: none;
+    }
+    .rectangle_orange {
+        display: none;
+    }
+       
+    .rectangle_jaune-fonce {
+        display: none;
+    }
+    
+    .rectangle_jaune {
+        display: none;
+    }
 }
