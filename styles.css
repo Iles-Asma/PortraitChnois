@@ -6,7 +6,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     max-width: 1920px;
     background-color: #FAEBE6;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 }
 
@@ -277,7 +277,7 @@ p {
 }
 
 
-@media screen and (min-width:2000px) {
+ @media screen and (min-width:2000px) { 
     
     .rectangle_rouge {
         display: none;
@@ -293,4 +293,4 @@ p {
     .rectangle_jaune {
         display: none;
     }
-}
+} 
